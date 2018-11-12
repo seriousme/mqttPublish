@@ -1,11 +1,17 @@
 # mqttPublish
 Simple commandline tool to publish a message to a MQTT topic.
-Build using https://github.com/goiiot/libmqtt
 
+Built using https://github.com/goiiot/libmqtt
+## Usage
+```shell
+mqttpublish [server:port] [topic] [message]
+```
 ## Install
+```shell
+go get github.com/seriousme/mqttPublish
 go install github.com/seriousme/mqttPublish
-
+```
 See libmqtt for minimal Go version
+
 ## License
 MIT
-
